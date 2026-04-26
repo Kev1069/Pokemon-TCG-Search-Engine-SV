@@ -205,3 +205,29 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Cache and embeddings (LARGE FILES!)
+cache/
+*.npy
+*.npz
+*.index
+*.faiss
+
+# Model weights (VERY LARGE!)
+models/clip_finetuned/*.pt
+models/clip_finetuned/checkpoint_*.pt
+models/clip_finetuned/best_model.pt
+models/clip_lora_finetuned/*.pt
+models/clip_lora_finetuned/checkpoint_*.pt
+models/clip_lora_finetuned/best_model.pt
+*.pt
+*.safetensors
+# Keep the final model folder structure but not large checkpoint files
+
+# Data (LARGE!)
+data/scarlet_violet/*.jpg
+data/scarlet_violet/*.png
+data/scarlet_violet/*.json
+data/embeddings/
+
+assets/*
