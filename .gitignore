@@ -217,6 +217,9 @@ cache/
 models/clip_finetuned/*.pt
 models/clip_finetuned/checkpoint_*.pt
 models/clip_finetuned/best_model.pt
+models/clip_finetuned_v0/*.pt
+models/clip_finetuned_v0/checkpoint_*.pt
+models/clip_finetuned_v0/best_model.pt
 models/clip_lora_finetuned/*.pt
 models/clip_lora_finetuned/checkpoint_*.pt
 models/clip_lora_finetuned/best_model.pt
